@@ -228,12 +228,17 @@ Das Script führt beim Start folgende Befehle aus:
 
 ---
 
-## Hinweis
+## Hinweise zu Variablen
 
 Einige Variablen sind aktuell noch nicht vollständig dokumentiert (`???`).  
-Diese können durch Logging oder Tests weiter analysiert werden.
+Diese können durch Logging, Tests oder Vergleich unterschiedlicher Fahrzeuge weiter analysiert werden.
 
----
+Wichtig:
+
+- Die verfügbaren Variablen können sich je nach **Fahrzeugmodell und Ausstattung** unterscheiden  
+- Nicht jeder Wohnwagen unterstützt alle Funktionen (z. B. Klima, SAT, Ultraheat, etc.)  
+- Manche Variablen erscheinen nur, wenn das entsprechende Modul verbaut ist  
+- Firmware-Versionen können ebenfalls Einfluss auf Namen und Verhalten der Variablen haben
 
 ## Tipp
 
