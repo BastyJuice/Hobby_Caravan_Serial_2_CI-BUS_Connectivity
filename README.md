@@ -49,6 +49,8 @@ Du benötigst:
 **Ohne Hobby Connect**  
 → RS485 Kabel an WLAN/Service-Port des LSG anschließen  
 
+![Hobby LSG Diagramm](./LSG_Schaltplan.png)
+
 ---
 
 ## Installation
