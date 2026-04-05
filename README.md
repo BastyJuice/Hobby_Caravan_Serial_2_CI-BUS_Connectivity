@@ -131,16 +131,114 @@ Das Script führt beim Start folgende Befehle aus:
 
     cat /dev/ttyUSB0
 
-### Beispiel Werte
+## CI-Bus Variablen Referenz
 
-- `$1` → Strom (A)  
-- `$2` → Spannung (V)  
-- `$3` → Batterie %  
-- `$29` → Frischwasser  
-- `$61` → Licht Decke  
-- `$73` → Licht Küche  
+| ID  | Name                     | Beschreibung                     | Beispielwert        |
+|-----|--------------------------|----------------------------------|---------------------|
+| $1  | IBS0_IBAT               | Batteriestrom                   | -0,1 A              |
+| $2  | IBS0_UBAT               | Batteriespannung                | 14,2 V              |
+| $3  | IBS0_SOC2               | Batterieladung (%)              | 99%                 |
+| $4  | IBS0_REMAINING_TIME     | Restlaufzeit                    | 1580 h              |
+| $5  | IBS0_TEMPERATURE        | Batterietemperatur              | 20 °C               |
+| $6  | IBS0_RECALIBRATED       | Batterie kalibriert             | 0                   |
+| $7  | IBS0_AVAILABLE          | Batterie verfügbar              | 1                   |
+| $8  | AC_DOM_FJ_FAN_SPEED     | Klima Lüfterstufe               | Slow                |
+| $9  | AC_DOM_FJ_ENABLE        | Klima aktiv                     | 0                   |
+| $10 | AC_DOM_FJ_MODE          | Klima Modus                     | Fan                 |
+| $11 | AC_DOM_FJ_TARGETTEMP    | Zieltemperatur Klima            | 19                  |
+| $12 | AC_DOM_FJ_AVAILABLE     | Klima verfügbar                 | 1                   |
+| $13 | ULTRAHEAT_AVAILABLE     | Ultraheat vorhanden             | 0                   |
+| $14 | ULTRAHEAT_ONOFF         | Ultraheat Status                | Off                 |
+| $15 | ULTRAHEAT_POWER         | Ultraheat Leistung              | 2000 W              |
+| $16 | ULTRAHEAT_TEMP          | Ultraheat Temperatur            | 5                   |
+| $17 | LINE_EN                 | Landstrom aktiv                 | 1                   |
+| $18 | HS_EN                   | Hauptschalter                   | 1                   |
+| $19 | DP_EN                   | ???                             | 0                   |
+| $20 | IBAT_BAL                | Batteriebalance                 | 2                   |
+| $21 | AC_EN                   | Klimaanlage global              | 0                   |
+| $22 | WAKE_EN                 | Wake-Modus                      | Off                 |
+| $23 | TEMP_IN                 | Innentemperatur                 | 22 °C               |
+| $24 | TEMP_OUT                | Außentemperatur                 | 11,5 °C             |
+| $25 | UBAT                    | Systemspannung                  | 14,9 V              |
+| $26 | DATE                    | Datum                           | 05.04.26            |
+| $27 | TIME                    | Uhrzeit                         | 15:28:30            |
+| $28 | DATETIME                | Datum + Zeit                    | 05.04.26 15:28:30   |
+| $29 | FRESH_WATER_LEVEL       | Frischwasserstand               | 3                   |
+| $30 | HS_KEY                  | Hauptschalter Taste             | -                   |
+| $31 | HS_KEY_LONG             | Hauptschalter lang              | -                   |
+| $32 | SOFTWARE_VERSION        | Software Version                | V011800             |
+| $33 | HEATER_AVAILABLE        | Heizung vorhanden               | 0                   |
+| $34 | HEATER_ONOFF            | Heizung an/aus                  | 0                   |
+| $35 | HEATER_TEMP             | Heiztemperatur                  | 0 °C                |
+| $36 | HEATER_WATER            | Warmwasser aktiv                | Off                 |
+| $37 | HEATER_WATER_TEMP       | Warmwasser Temperatur           | 50 °C               |
+| $38 | HEATER_EL               | Elektroheizung                  | Off                 |
+| $39 | HEATER_GAS              | Gasheizung                      | On                  |
+| $40 | CHARGER0_AVAILABLE      | Ladegerät 0 vorhanden           | 0                   |
+| $41 | CHARGER0_ACTIVE         | Ladegerät 0 aktiv               | 0                   |
+| $42 | CHARGER0_I              | Ladestrom                       | 0.0 A               |
+| $43 | CHARGER0_SILENT         | Silent Mode                     | 0                   |
+| $44 | CHARGER0_REDUCED_PWR    | reduzierte Leistung             | 0                   |
+| $45 | CHARGER0_ERROR          | Ladegerät Fehler                | 0                   |
+| $46 | CHARGER1_AVAILABLE      | Ladegerät 1 vorhanden           | 0                   |
+| $47 | CHARGER1_ACTIVE         | Ladegerät 1 aktiv               | 0                   |
+| $48 | CHARGER1_I              | Ladestrom                       | 0.0 A               |
+| $49 | CHARGER1_SILENT         | Silent Mode                     | 0                   |
+| $50 | CHARGER1_REDUCED_PWR    | reduzierte Leistung             | 0                   |
+| $51 | CHARGER1_ERROR          | Ladegerät Fehler                | 0                   |
+| $58 | PI_STATE                | Raspberry Status                | 2                   |
+| $60 | PI_PAIRING              | Pairing Status                  | 0                   |
+| $61 | LIGHT_DECKE             | Licht Decke                     | 0                   |
+| $62 | LIGHT_WAND              | Licht Wand                      | 0                   |
+| $63 | LIGHT_BETTL             | Licht Bett links                | 0                   |
+| $64 | LIGHT_BETTR             | Licht Bett rechts               | 0                   |
+| $65 | LIGHT_DUSCHE            | Licht Dusche                    | 0                   |
+| $66 | LIGHT_WASCH             | Licht Waschraum                 | 0                   |
+| $67 | LIGHT_AMB1              | Ambient Licht 1                 | 0                   |
+| $68 | LIGHT_AMB2              | Ambient Licht 2                 | 0                   |
+| $69 | LIGHT_AMB3              | Ambient Licht 3                 | 0                   |
+| $70 | LIGHT_ZUSATZL           | Zusatzlicht links               | 0                   |
+| $71 | LIGHT_ZUSATZM           | Zusatzlicht Mitte               | 0                   |
+| $72 | LIGHT_ZUSATZR           | Zusatzlicht rechts              | 0                   |
+| $73 | LIGHT_KUECHE            | Licht Küche                     | 0                   |
+| $74 | LIGHT_AUSSEN            | Außenlicht                      | 0                   |
+| $75 | LIGHT_THERME            | Therme Licht                    | 0                   |
+| $76 | LIGHT_FUSSB             | Fußbodenlicht                   | 0                   |
+| $78 | AC_TRUMA_AVAILABLE      | Truma Klima vorhanden           | 0                   |
+| $79 | AC_TRUMA_TYPE           | Truma Typ                       | 1                   |
+| $80 | AC_TRUMA_ENABLE         | Truma aktiv                     | 0                   |
+| $81 | AC_TRUMA_TEMP           | Truma Temperatur                | 210                 |
+| $83 | AC_TRUMA_FAN_LEVEL      | Lüfterstufe                     | 1                   |
+| $84 | AC_TRUMA_LIGHT_ON_OFF   | Licht an/aus                    | 0                   |
+| $85 | AC_TRUMA_LIGHT_DIMMER   | Licht Dimmer                    | 80                  |
+| $87 | TH_AVAILABLE            | Truma Heizung verfügbar         | 1                   |
+| $88 | TT_AVAILABLE            | ???                             | 1                   |
+| $89 | TH_TYPE                 | Heizungstyp                     | 3                   |
+| $90 | TH_A_EN                 | Heizung Luft                    | On                  |
+| $91 | TH_W_EN                 | Heizung Wasser                  | On                  |
+| $92 | TH_A_T                  | Lufttemperatur                  | 22 °C               |
+| $93 | TH_W_T                  | Wassertemperatur                | 60 °C               |
+| $96 | SAT_AVAILABLE           | SAT vorhanden                   | 0                   |
+| $98 | SAT_STATUS              | SAT Status                      | 0                   |
+| $104| FRIDGE_AVAILABLE        | Kühlschrank vorhanden           | 0                   |
+| $105| FRIDGE_ON_OFF           | Kühlschrank an/aus              | 0                   |
+| $106| FRIDGE_MODE             | Kühlschrank Modus               | 0                   |
+| $107| FRIDGE_TEMP             | Kühlschrank Temperatur          | 0                   |
+| $109| FRIDGE_ERROR            | Kühlschrank Fehler              | 0                   |
 
 ---
+
+## Hinweis
+
+Einige Variablen sind aktuell noch nicht vollständig dokumentiert (`???`).  
+Diese können durch Logging oder Tests weiter analysiert werden.
+
+---
+
+## Tipp
+
+Live beobachten:
+
 
 ### Schalten (Toggle)
 
@@ -158,11 +256,32 @@ Das Script führt beim Start folgende Befehle aus:
 
 ---
 
-### Hauptschalter
+### ⚡ Hauptschalter (Main Power)
+
+Der Hauptschalter wird über die Variable `$18 (HS_EN)` gesteuert.
+
+#### Status
+
+- `$18 = 1` → EIN  
+- `$18 = 0` → AUS  
+
+#### Steuerbefehle
+
+**Einschalten:**
+
+    printf '!run:30\r\n' > /dev/ttyUSB0
+
+**Ausschalten:**
 
     printf '!run:31\r\n' > /dev/ttyUSB0
 
-(Main Power Toggle → `$18`)
+---
+
+Hinweis:
+
+- `!run:30` → schaltet EIN  
+- `!run:31` → schaltet AUS  
+- Kein echtes Toggle, sondern zwei getrennte Befehle
 
 ---
 
