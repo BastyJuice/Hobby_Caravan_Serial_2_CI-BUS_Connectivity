@@ -230,7 +230,7 @@ Das Script führt beim Start folgende Befehle aus:
 
 ---
 
-## Hinweise zu Variablen
+### Hinweise zu Variablen
 
 Einige Variablen sind aktuell noch nicht vollständig dokumentiert (`???`).  
 Diese können durch Logging, Tests oder Vergleich unterschiedlicher Fahrzeuge weiter analysiert werden.
@@ -263,7 +263,7 @@ Live beobachten:
 
 ---
 
-### ⚡ Hauptschalter (Main Power)
+### Hauptschalter (Main Power)
 
 Der Hauptschalter wird über die Variable `$18 (HS_EN)` gesteuert.
 
