@@ -24,7 +24,7 @@ Es dient als Grundlage, um Fahrzeugdaten auszulesen und Geräte wie Licht, Heizu
 ### Alternativ
 
 - Kabel beim Hobby Händler  
-- oder selbst bauen (RS485 → LSG WLAN Schnittstelle)
+- oder selbst bauen oder Löten (RS485 → LSG WLAN Schnittstelle)
 
 ### Optional
 
