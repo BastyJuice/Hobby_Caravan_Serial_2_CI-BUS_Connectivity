@@ -19,7 +19,7 @@ Es dient als Grundlage, um Fahrzeugdaten auszulesen und Geräte wie Licht, Heizu
 
 - Raspberry Pi (z. B. 3B, 4, etc.)  
 - USB-zu-Serial RS485 Adapter  
-  → meist bereits vorhanden bei **Hobby Connect**
+  → meist bereits vorhanden bei **Hobby Connect** Austttaung
 
 ### Alternativ
 
