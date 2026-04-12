@@ -344,6 +344,8 @@ Verwendung über Plugin:
 
 https://wiki.loxberry.de/plugins/serial_usb_bridge/start
 
+WICHTIG: Das Plugin hat einen Bug USB-1 ist nicht verwendbar nehmt einfach USB-2
+
 ### Beispiel Eingang
 
     USB-2=\i$2:\i\v
