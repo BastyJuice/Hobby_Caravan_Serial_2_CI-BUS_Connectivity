@@ -263,6 +263,52 @@ Live beobachten:
 
 ---
 
+### Klimaanlagen Steuerung
+
+Der Modus der Klimaanlage wird über die Variable `$10` gesteuert und die Geschwindikeit über die Variable `$8`
+
+#### Steuerbefehle Modus
+
+    printf '!set:10=Auto\r\n' > /dev/ttyUSB0
+
+    printf '!set:10=Heat\r\n' > /dev/ttyUSB0
+
+    printf '!set:10=Cool\r\n' > /dev/ttyUSB0
+
+    printf '!set:10=Fan\r\n' > /dev/ttyUSB0
+
+#### Steuerbefehle Fan Speed
+
+    printf '!set:8=Auto\r\n' > /dev/ttyUSB0
+
+    printf '!set:8=Slow\r\n' > /dev/ttyUSB0
+
+    printf '!set:8=Med\r\n' > /dev/ttyUSB0
+
+    printf '!set:8=Fast\r\n' > /dev/ttyUSB0    
+
+    printf '!set:8=Max\r\n' > /dev/ttyUSB0
+
+---
+
+---
+
+### Wassertemperatur
+
+Die Wassertemperatur wird über die Variable `$93 (HS_EN)` gesteuert. Es ist nur 40° & 60° Möglich
+
+#### Steuerbefehle
+
+**ECO:**
+
+    printf '!set:93=40\r\n' > /dev/ttyUSB0
+
+**BOOST:**
+
+    printf '!set:93=60\r\n' > /dev/ttyUSB0
+
+---
+
 ### Hauptschalter (Main Power)
 
 Der Hauptschalter wird über die Variable `$18 (HS_EN)` gesteuert.
