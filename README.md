@@ -28,7 +28,7 @@ Es dient als Grundlage, um Fahrzeugdaten auszulesen und Geräte wie Licht, Heizu
 
 ### Optional
 
-- Loxone Miniserver  
+- Loxone Miniserver + Loxberry
 - Home Assistant  
 
 ---
