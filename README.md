@@ -295,7 +295,7 @@ Der Modus der Klimaanlage wird über die Variable `$10` gesteuert und die Geschw
 
 ### Wassertemperatur
 
-Die Wassertemperatur wird über die Variable `$93 (HS_EN)` gesteuert. Es ist nur 40° & 60° Möglich
+Die Wassertemperatur wird über die Variable `$93 TH_W_T` gesteuert. Es ist nur 40° & 60° Möglich
 
 #### Steuerbefehle
 
