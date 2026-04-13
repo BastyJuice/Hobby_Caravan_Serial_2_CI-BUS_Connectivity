@@ -59,13 +59,18 @@ Du benötigst:
 **Ohne Hobby Connect**  
 → RS485 Kabel an WLAN/Service-Port des LSG anschließen
 
-**Die Kabelsätze um einen Adapter zu bauen findet ihr Hier**
-Wohnmobile: 
-https://www.campingplus.de/ersatzteile/hobby-wohnwagen-ersatzteile/elektroinstallation/hobby-kabelsatz-bluetooth-modul-fuer-reisemobile-kastenwagen-2021
+## Kabelsätze für Adapter
 
-Wohnwagen: 
-https://www.campingplus.de/ersatzteile/hobby-wohnwagen-ersatzteile/elektroinstallation/hobby-kabelsatz-bluetooth-modul-fuer-wohnwagen
+Die passenden Kabelsätze zum Bau eines Adapters findest du hier:
 
+### Wohnmobile
+- [Kabelsatz Bluetooth-Modul für Reisemobile / Kastenwagen (ab 2021)](https://www.campingplus.de/ersatzteile/hobby-wohnwagen-ersatzteile/elektroinstallation/hobby-kabelsatz-bluetooth-modul-fuer-reisemobile-kastenwagen-2021)
+
+### Wohnwagen
+- [Kabelsatz Bluetooth-Modul für Wohnwagen](https://www.campingplus.de/ersatzteile/hobby-wohnwagen-ersatzteile/elektroinstallation/hobby-kabelsatz-bluetooth-modul-fuer-wohnwagen)
+
+**Wichtig:** Die Kabelsätze müssen zusätzlich mit einem Stecker für die serielle Schnittstelle ausgestattet werden oder alternativ auf einen passenden TX/RX-USB-Adapter angeschlossen werden.
+  
 ![Hobby LSG Diagramm](./LSG_Schaltplan.png)
 
 ---
