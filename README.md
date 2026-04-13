@@ -3,7 +3,7 @@
 Dieses Python-Skript initialisiert den Hobby CI-Bus über einen USB-zu-Serial Adapter und aktiviert den Datenstream.  
 Es dient als Grundlage, um Fahrzeugdaten auszulesen und Geräte wie Licht, Heizung oder Klima über Systeme wie **Loxone** oder **Home Assistant** zu steuern.
 
-Dieses Projekt steht in keiner Verbindung zur Hobby Wohnwagenwerk GmbH und wird von dieser weder unterstützt noch empfohlen. Alle Informationen wurden durch unabhängig gewonnen.
+Dieses Projekt steht in keiner Verbindung zur Hobby Wohnwagenwerk GmbH und wird von dieser weder unterstützt noch empfohlen. Alle Informationen wurden durch Try and Error unabhängig gewonnen.
 
 ### Die Nutzung erfolgt auf eigene Gefahr für eventuelle Schäden an eurer Elektrik übernehmt ihr selbst die Verantwortung ###
 
