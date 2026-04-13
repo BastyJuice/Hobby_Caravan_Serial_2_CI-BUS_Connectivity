@@ -69,7 +69,7 @@ Die passenden Kabelsätze zum Bau eines Adapters findest du hier:
 ### Wohnwagen
 - [Kabelsatz Bluetooth-Modul für Wohnwagen](https://www.campingplus.de/ersatzteile/hobby-wohnwagen-ersatzteile/elektroinstallation/hobby-kabelsatz-bluetooth-modul-fuer-wohnwagen)
 
-**Wichtig:** Die Kabelsätze müssen zusätzlich mit einem Stecker für die serielle Schnittstelle ausgestattet werden oder alternativ auf einen passenden TX/RX-USB-Adapter angeschlossen werden.
+**Wichtig:** Die Kabelsätze müssen zusätzlich mit einem Stecker für die serielle Schnittstelle ausgestattet werden oder alternativ auf einen passenden TX/RX-USB-Adapter für die Raspberry seite angeschlossen werden.
   
 ![Hobby LSG Diagramm](./LSG_Schaltplan.png)
 
