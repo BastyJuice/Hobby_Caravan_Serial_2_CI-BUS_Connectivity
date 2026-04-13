@@ -157,7 +157,7 @@ Das Script führt beim Start folgende Befehle aus:
 | $16 | ULTRAHEAT_TEMP          | Ultraheat Temperatur            | 5                   |
 | $17 | LINE_EN                 | Landstrom aktiv                 | 1                   |
 | $18 | HS_EN                   | Hauptschalter                   | 1                   |
-| $19 | DP_EN                   | ???                             | 0                   |
+| $19 | DP_EN                   | Zündungsplus                    | 0                   |
 | $20 | IBAT_BAL                | Batteriebalance                 | 2                   |
 | $21 | AC_EN                   | Klimaanlage global              | 0                   |
 | $22 | WAKE_EN                 | Wake-Modus                      | Off                 |
