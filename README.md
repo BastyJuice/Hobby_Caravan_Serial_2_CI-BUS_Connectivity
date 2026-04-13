@@ -13,7 +13,13 @@ Es dient als Grundlage, um Fahrzeugdaten auszulesen und Geräte wie Licht, Heizu
 - Aktivierung des Datenstreams (`!son`)  
 - Abruf aller verfügbaren Variablen (`!gvl`)  
 - Bereitstellung der Live-Daten über `/dev/ttyUSB0`  
-- Vorbereitung für Integration in Loxone / Home Assistant  
+- Vorbereitung für Integration in Loxone / Home Assistant
+
+Dieses Script ersetzt die **Hobby Connect Box** und ermöglicht:
+
+- direkten Zugriff auf den CI-Bus  
+- vollständige Steuerung des Fahrzeugs  
+- Integration in Smart Home Systeme  
 
 ---
 
@@ -372,16 +378,6 @@ WICHTIG: Das Plugin hat einen Bug USB-1 ist nicht verwendbar nehmt einfach USB-2
 - Zugriff auf `/dev/ttyUSB0` nur lokal erlauben  
 - Keine direkten Schreibzugriffe ohne Logik (Toggle beachten!)  
 - Systembefehle wie `!run:31` vorsichtig verwenden  
-
----
-
-## Fazit
-
-Dieses Script ersetzt die **Hobby Connect Box** und ermöglicht:
-
-- direkten Zugriff auf den CI-Bus  
-- vollständige Steuerung des Fahrzeugs  
-- Integration in Smart Home Systeme  
 
 ---
 
