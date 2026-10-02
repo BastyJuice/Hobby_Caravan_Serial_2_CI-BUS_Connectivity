@@ -28,7 +28,7 @@ Dieses Script ersetzt die **Hobby Connect Box** und ermöglicht:
 ## Anforderungen
 
 - Raspberry Pi (z. B. 3B, 4, etc.)  
-- USB-zu-Serial RS485 Adapter  
+- USB-zu-Serial RS232 Adapter  
   → meist bereits vorhanden bei **Hobby Connect** Austttaung
 
 ### Alternativ
@@ -48,7 +48,7 @@ Dieses Script ersetzt die **Hobby Connect Box** und ermöglicht:
 Du benötigst:
 
 - Raspberry Pi  
-- RS485 Adapter (USB)  
+- RS232 Adapter (USB)  
 - Verbindung zum LSG Modul  
 
 ### Anschlussmöglichkeiten
@@ -57,7 +57,7 @@ Du benötigst:
 → Adapter ist bereits verbaut  
 
 **Ohne Hobby Connect**  
-→ RS485 Kabel an WLAN/Service-Port des LSG anschließen
+→ RS232 Kabel an WLAN/Service-Port des LSG anschließen
 
 ## Kabelsätze für Adapter
 
